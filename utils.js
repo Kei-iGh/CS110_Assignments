@@ -1,5 +1,17 @@
 //1. In utils.js write a function matrixProduct(mat1, mat2) that returns a new matrix that is
 //the product of mat1 and mat2 matrices. Here’s its algorithm:
+//mat1: a1 a2   mat2: b1 b2   Result: (a1*b1 + a2*b3) (a1*b2 + a2*b4)
+//      a3 a4         b3 b4           (a3*b1 + a4*b3) (a3*b2 + a4*b4)
+
+
+//2. In utils.js write a function sumOfMatrices(mat1, mat2) that accepts two matrices and
+//returns the sum of those matrices in a new matrix. Here’s its algorithm:
+//mat1: a1 a2   mat2: b1 b2   Result: (a1+b1) (a2+b2)
+//      a3 a4         b3 b4           (a3+b3) (a4+b4)
+
+
+//3. In utils.js write a function sumOfEachRow(mat) that accepts a matrix and returns an
+//array that contains sum of every row of the matrix for its elements.
 
 module.exports = {
 MatrixProduct(mat1, mat2){
