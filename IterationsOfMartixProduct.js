@@ -1,4 +1,4 @@
-/*
+/* Showcase of each step that is done during the iteration process 
 
 let matrix1 = [
     [1, 2],
