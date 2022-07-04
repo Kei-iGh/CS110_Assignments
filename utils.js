@@ -1,3 +1,6 @@
+//1. In utils.js write a function matrixProduct(mat1, mat2) that returns a new matrix that is
+//the product of mat1 and mat2 matrices. Here’s its algorithm:
+
 module.exports = {
 MatrixProduct(mat1, mat2){
     let mat3 = [];
